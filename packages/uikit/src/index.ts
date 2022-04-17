@@ -42,7 +42,8 @@ export * from "./hooks";
 
 // Widgets
 export * from "./widgets/Modal";
-export * from "./widgets/Menu";
+// export * from "./widgets/Menu";
+export * from "./widgets/MyMenu";
 export * from "./widgets/WalletModal";
 
 // Theme

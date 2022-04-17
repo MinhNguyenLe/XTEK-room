@@ -28,6 +28,7 @@ import swap from './swap/reducer'
 import transactions from './transactions/reducer'
 import user from './user/reducer'
 import limitOrders from './limitOrders/reducer'
+import streamReducer from './stream'
 
 const PERSISTED_KEYS: string[] = ['user', 'transactions', 'lists']
 
@@ -73,6 +74,7 @@ const persistedReducer = persistReducer(
     burn,
     multicall,
     lists,
+    stream: streamReducer,
   }),
 )
 
