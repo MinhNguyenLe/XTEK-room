@@ -5,7 +5,7 @@ import LayoutHome from 'layout/Home'
 const Battlefi = () => {
   return (
     <LayoutHome>
-      <div>asdasdasd</div>
+      <div>1234</div>
     </LayoutHome>
   )
 }
